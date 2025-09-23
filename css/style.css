@@ -169,33 +169,43 @@ li {
 
 .top {
   height: 100vh;
+}
+
+.top-wrap {
+  position: relative;
+  height: 100%;
+  padding-top: 90px;
+}
+
+.top-wrap__img {
   background-image: url("../img/t-pc__kv.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   margin: 0 auto;
-}
-
-.top-wrap {
+  width: 100%;
   height: 100%;
-  display: flex;
-  padding-top: 90px;
+  z-index: 0;
 }
 
-.top-wrap__left {
+.top-wrap__con {
+  position: absolute;
+  display: flex;
+}
+
+.top-wrap__con__left {
   width: 40%;
   height: auto;
 }
 
-.top-wrap__right {
+.top-wrap__con__right {
   width: 60%;
   height: auto;
-  position: relative;
   flex-direction: column;
   text-align: center;
 }
 
-.top-wrap__right__mes {
+.top-wrap__con__right__mes {
   display: inline-block;
   position: relative;
   background-color: #0099CB;
@@ -203,7 +213,7 @@ li {
   margin-top: 7%;
 }
 
-.top-wrap__right__mes::after {
+.top-wrap__con__right__mes::after {
   content: "";
   position: absolute;
   bottom: -18px;
@@ -213,30 +223,30 @@ li {
   border-right: 20px solid transparent;
 }
 
-.top-wrap__right__mes p {
+.top-wrap__con__right__mes p {
   color: #fff;
   font-size: clamp(0.938rem, 0.188rem + 3.75vw, 3rem);
   font-weight: 500;
   text-shadow: 4px 3px 7px rgb(0 0 0 / 40%);
 }
 
-.top-wrap__right__ttl{
+.top-wrap__con__right__ttl{
   padding-top: 2%;
 }
 
-.top-wrap__right__ttl p {
+.top-wrap__con__right__ttl p {
   font-size: clamp(2rem, -0.182rem + 10.91vw, 8rem);
   font-weight: bold;
   line-height: 1.4;
 }
 
-.top-wrap__right__price p {
+.top-wrap__con__right__price p {
   font-size: clamp(1rem, 0.273rem + 3.64vw, 3rem);
   font-weight: bold;
   line-height: 1.4;
 }
 
-.top-wrap__right__price span {
+.top-wrap__con__right__price span {
   font-size: clamp(2rem, 0.545rem + 7.27vw, 6rem);
   font-weight: bold;
   color: #FF9D00;
@@ -1005,6 +1015,13 @@ li {
 }
 
 @media screen and (max-width: 1024px) {
+  .top {
+      height: 100vh;
+    }
+
+  .top-wrap__left {
+    display: none;
+  }
 
   .top-wrap__right__mes {
     margin-top: 15%;
