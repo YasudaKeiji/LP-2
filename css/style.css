@@ -278,17 +278,17 @@ li {
 }
 
 .course-wrap__con__left-price span.old-price {
-  font-size: clamp(0.438rem, 0.188rem + 1.25vw, 1.125rem);
+  font-size: clamp(0.563rem, 0.358rem + 1.02vw, 1.125rem);
   display: block;
   margin-bottom: -10px;
 }
 
 .course-wrap__con__left-price p {
-  font-size: clamp(1rem, 0.455rem + 2.73vw, 2.5rem);
+  font-size: clamp(1.25rem, 0.795rem + 2.27vw, 2.5rem);
 }
 
 .course-wrap__con__left-price span.per-price {
-  font-size: clamp(0.375rem, 0.102rem + 1.36vw, 1.125rem);
+  font-size: clamp(0.563rem, 0.358rem + 1.02vw, 1.125rem);
   display: block;
   margin-top: -10px;
 }
@@ -311,7 +311,7 @@ li {
 }
 
 .course-wrap__con__right-price p {
-  font-size: clamp(1.25rem, 0.25rem + 5vw, 4rem);
+  font-size: clamp(2rem, 1.273rem + 3.64vw, 4rem);
   font-weight: bold;
   display: block;
   margin-top: -10px;
@@ -323,7 +323,7 @@ li {
 }
 
 .course-wrap__con__right-price span.per-price {
-  font-size: clamp(0.375rem, 0.102rem + 1.36vw, 1.125rem);
+  font-size: clamp(0.563rem, 0.358rem + 1.02vw, 1.125rem);
   display: block;
   margin-top: -15px;
 }
@@ -332,7 +332,7 @@ li {
   background-color: #F8E875;
   padding: 1.25% 3.5%;
   display: inline-block;
-  font-size: clamp(0.563rem, 0.222rem + 1.7vw, 1.5rem);
+  font-size: clamp(0.75rem, 0.477rem + 1.36vw, 1.5rem);
   margin-bottom: 5%;
 }
 
@@ -347,7 +347,7 @@ li {
 .attention-wrap__txt {
   padding: 2% 0;
   line-height: 1.5;
-  font-size: clamp(0.375rem, 0.102rem + 1.36vw, 1.125rem);
+  font-size: clamp(0.5rem, 0.273rem + 1.14vw, 1.125rem);
 }
 
 .con-wrap {
@@ -366,13 +366,13 @@ li {
 }
 
 .con-wrap__form__btn p{
-  font-size: clamp(0.625rem, 0.307rem + 1.59vw, 1.5rem);
+  font-size: clamp(0.75rem, 0.477rem + 1.36vw, 1.5rem);
   line-height: 1.2;
   padding: 2% 0;
 }
 
 .con-wrap__form__btn span {
-  font-size: clamp(0.438rem, 0.188rem + 1.25vw, 1.125rem);
+  font-size: clamp(0.563rem, 0.358rem + 1.02vw, 1.125rem);
   color: #BFC877;
 }
 
@@ -409,7 +409,7 @@ li {
 .beard-wrap {
   width: 30%;
   margin: 0 auto;
-  padding: 3% 0;
+  padding: 5% 0;
 }
 
 .beard-wrap__ttl {
@@ -422,7 +422,7 @@ li {
 }
 
 .beard-wrap__ttl p{
-  font-size: clamp(0.688rem, 0.392rem + 1.48vw, 1.5rem);
+  font-size: clamp(0.75rem, 0.477rem + 1.36vw, 1.5rem);
   font-weight: bold;
 }
 
@@ -462,6 +462,7 @@ li {
 }
 
 .beard-wrap__con__bf__txt {
+  font-size: clamp(0.563rem, 0.358rem + 1.02vw, 1.125rem);
   text-align: center;
   line-height: 1.2;
   padding-top: 4%;
@@ -480,6 +481,7 @@ li {
 }
 
 .beard-wrap__con__af__txt {
+  font-size: clamp(0.563rem, 0.358rem + 1.02vw, 1.125rem);
   text-align: center;
   line-height: 1.2;
   padding-top: 4%;
@@ -494,14 +496,14 @@ li {
 }
 
 .beard-wrap__con__price p{
-  font-size: clamp(0.5rem, 0.273rem + 1.14vw, 1.125rem);
+  font-size: clamp(0.75rem, 0.477rem + 1.36vw, 1.5rem);
   line-height: 1.5;
 }
 
 .worry-wrap {
   width: 60%;
   margin: 0 auto;
-  padding: 3% 0;
+  padding: 5% 0;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -581,7 +583,7 @@ li {
   max-width: 700px;
   margin: 0 auto;
   margin-top: 5%;
-  padding: 3% 0;
+  padding: 5% 0;
 }
 
 .fea {
@@ -590,7 +592,7 @@ li {
 
 .fea-wrap__ttl {
   text-align: center;
-  font-size: clamp(0.938rem, 0.188rem + 3.75vw, 3rem);
+  font-size: clamp(1.5rem, 0.955rem + 2.73vw, 3rem);
   color: #C8AF77;
   line-height: 1.3;
   font-weight: bold;
@@ -624,13 +626,13 @@ li {
 .fea-wrap__body__block__ttl h3 {
   border-bottom: solid 1.5px #e6a3a2;
   color: #e6a3a2;
-  font-size: clamp(0.625rem, 0.17rem + 2.27vw, 1.875rem);
+  font-size: clamp(0.875rem, 0.557rem + 1.59vw, 1.75rem);
   font-weight: bold;
 }
 
 .fea-wrap__body__block__ttl h3 b {
   margin-right: 2.5%;
-  font-size: clamp(0.938rem, 0.188rem + 3.75vw, 3rem);
+  font-size: clamp(1.5rem, 0.955rem + 2.73vw, 3rem);
   font-weight: 400;
 }
 
@@ -641,7 +643,7 @@ li {
 .fea-wrap__body__block__txt p {
   line-height: 2;
   font-size: clamp(0.85rem, 0.795rem + 0.27vw, 1rem);
-}
+  }
 
 .fea-wrap__body__block__img {
   width: 100%;
@@ -667,7 +669,7 @@ li {
 
 .__ttl {
   text-align: center;
-  font-size: clamp(0.938rem, 0.188rem + 3.75vw, 3rem);
+  font-size: clamp(1.5rem, 0.955rem + 2.73vw, 3rem);
   color: #C8AF77;
   line-height: 1.3;
   font-weight: bold;
@@ -701,7 +703,7 @@ li {
 .diff-wrap__body__table table tr td {
   padding: 12.5px;
   border-left: solid 1px #000;
-  font-size: clamp(0.25rem, -0.068rem + 1.59vw, 1.125rem);
+  font-size: clamp(0.313rem, 0.017rem + 1.48vw, 1.125rem);
 }
 
 .diff-wrap__body__table table tr td span.d-circle {
@@ -770,7 +772,7 @@ li {
 }
 
 .price-wrap__body__table table tr th {
-  font-size: clamp(0.438rem, 0.188rem + 1.25vw, 1.125rem);
+  font-size: clamp(0.313rem, 0.017rem + 1.48vw, 1.125rem);
   text-align: center;
   vertical-align: middle;
   background-color: #FCFAF5;
@@ -821,7 +823,7 @@ li {
   margin: 1.5% 0;
   background-color: #fff;
   border: solid 1.5px #c8af77;
-  padding: 1.75% 3.5%;
+  padding: 1.75% 3.5% 2% 3.5%;
   list-style: none;
 }
 
@@ -848,12 +850,13 @@ li {
   display: block;
   font-weight: 400;
   color: #c8af77;
-  font-size: clamp(0.85rem, 0.795rem + 0.27vw, 1rem);
+  font-size: clamp(0.563rem, 0.358rem + 1.02vw, 1.125rem);
+  line-height: 1.3;
 }
 
 .faq-wrap__body__list__item__ttl span {
   font-weight: 400;
-  font-size: clamp(1.15rem, 1.023rem + 0.64vw, 1.5rem);
+  font-size: clamp(0.75rem, 0.205rem + 2.73vw, 2.25rem);
 }
 
 .faq-wrap__body__list__item__ttl::after,
@@ -880,7 +883,7 @@ li {
 
 .faq-wrap__body__list__item__con span {
   font-weight: 400;
-  font-size: clamp(1.15rem, 1.023rem + 0.64vw, 1.5rem);
+  font-size: clamp(0.75rem, 0.205rem + 2.73vw, 2.25rem);
 }
 
 .faq-wrap__body__list__item__con p {
@@ -888,15 +891,11 @@ li {
   border-top: solid 1px #c8af77;
   margin-top: 1%;
   padding-top: 1%;
-  font-size: clamp(0.85rem, 0.795rem + 0.27vw, 1rem);
-}
-
-.reserve-wrap__con {
-  margin-left: 10%;
+  font-size: clamp(0.563rem, 0.358rem + 1.02vw, 1.125rem);
 }
 
 .reserve-wrap__con__form {
-  margin: 3.5% 0 7.5% 0;
+  margin: 3.5% 0 0 0;
 }
 
 .reserve-wrap__con__form__block {
@@ -912,7 +911,7 @@ li {
 }
 
 .reserve-wrap__con__form__block__ttl p {
-  font-size: clamp(1rem, 0.873rem + 0.64vw, 1.35rem);
+  font-size: clamp(0.625rem, 0.307rem + 1.59vw, 1.5rem);
   margin: 0 1.5%;
 }
 
@@ -921,7 +920,7 @@ li {
   padding: 0.25% 1%;
   color: #fff;
   font-weight: 400;
-  font-size: clamp(0.85rem, 0.795rem + 0.27vw, 1rem);
+  font-size: clamp(0.438rem, 0.188rem + 1.25vw, 1.125rem);
 }
 
 .reserve-wrap__con__form__block__input {
@@ -937,7 +936,7 @@ li {
   align-items: center;
   background-color: #f7f7f7;
   padding: 2.0% 3.5%;
-  font-size: clamp(0.85rem, 0.795rem + 0.27vw, 1rem);
+  font-size: clamp(0.438rem, 0.188rem + 1.25vw, 1.125rem);
 }
 
 .reserve-wrap__con__form__block__input__one.__text {
@@ -950,7 +949,7 @@ li {
   line-height: 3.5;
   padding-left: 2.5%;
   width: 100%;
-  font-size: clamp(0.85rem, 0.795rem + 0.27vw, 1rem);
+  font-size: clamp(0.438rem, 0.188rem + 1.25vw, 1.125rem);
 }
 
 .reserve-wrap__con__form__block__input__one.__date input {
@@ -959,7 +958,7 @@ li {
   border: solid #e3e3e3 1px;
   line-height: 3.5;
   padding: 2.5% 10%;
-  font-size: clamp(0.85rem, 0.795rem + 0.27vw, 1rem);
+  font-size: clamp(0.438rem, 0.188rem + 1.25vw, 1.125rem);
 }
 
 .reserve-wrap__con__form__block__input__one.__time {
@@ -970,11 +969,11 @@ li {
   align-items: center;
   background-color: #f7f7f7;
   padding: 2.5% 3.5%;
-  font-size: clamp(0.85rem, 0.795rem + 0.27vw, 1rem);
+  font-size: clamp(0.438rem, 0.188rem + 1.25vw, 1.125rem);
 }
 
 .reserve-wrap__con__form__btn {
-  width: 15rem;
+  width: 25rem;
   margin: 0 auto;
   margin-top: 3.5%;
 }
@@ -990,7 +989,6 @@ li {
   line-height: 3.5;
   box-shadow: 4px 3px 7px rgb(0 0 0 / 40%);
   transition: all 0.3s;
-  font-size: clamp(1rem, 0.909rem + 0.45vw, 1.25rem);
 }
 
 .reserve-wrap__con__form__btn:hover {
@@ -1016,20 +1014,37 @@ li {
 }
 
 @media screen and (max-width: 1024px) {
+  
   .top-wrap {
     position: unset;
     display: flex;
     flex-direction: column;
+    height: calc(100vh - 90px);
   }
 
   .top-wrap__img {
-    position: unset;
+    position: relative;
     height: 40%;
+  }
+
+  .top-wrap__img::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom,
+        transparent calc(88%),
+        rgba(239, 242, 245, 0.1) calc(90%),
+        #fff 100%);
+    z-index: 1;
   }
 
   .top-wrap__con {
     position: unset;
     background-color: #EFF2F5;
+    height: 60%;
   }
 
   .top-wrap__con__left {
@@ -1038,11 +1053,32 @@ li {
 
   .top-wrap__con__right {
     width: 100%;
-    height: 100%;
+    height: auto;
+  }
+
+  .top-wrap__con__right__mes {
+    margin-top: 3%;
   }
 
   .top-wrap__con__right__mes::after {
     display: none;
+  }
+
+  .top-wrap__con__right__ttl{
+    padding-top: 1%;
+  }
+
+  .top-wrap__con__right__price p {
+    line-height: 1.2;
+  }
+
+  .top-wrap__con__right__price span {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .top-wrap__con__right__price span::before{
+    content:"\A";
+    white-space:pre;
   }
 
   .course-wrap {
@@ -1050,7 +1086,7 @@ li {
   }
 
   .beard-wrap {
-    width: 35%;
+    width: 40%;
   }
 
   .worry-wrap {
@@ -1059,11 +1095,6 @@ li {
 
   .fea-wrap__body {
     margin: 0 60px;
-  }
-
-  .diff-wrap__body {
-    margin: 0 60px;
-    margin-top: 5%;
   }
 
   .diff-wrap__body {
@@ -1081,24 +1112,16 @@ li {
     margin-top: 5%;
   }
 
-  .reserve-wrap__con {
-    margin-left: 17%;
-  }
-
-  .reservation-wrap__body {
-    margin: 0 60px;
-    margin-top: 5%;
-  }
-  .reserve-wrap__con__form__block {
-    margin: 2.5% 0;
-    width: 80%;
-  }
 }
 
 @media screen and (max-width: 768px) {
 
+  .course-wrap {
+    width: 60%;
+  }
+
   .beard-wrap {
-    width: 50%;
+    width: 55%;
   }
 
   .con-wrap__form__btn {
@@ -1132,11 +1155,121 @@ li {
     margin: 0 20px;
     margin-top: 5%;
   }
+
+  .reserve-wrap__con {
+    margin-left: 5%;
+  }
+
+  .reserve-wrap__con__form__btn {
+    width: 13em;
+    margin-left: 230px;
+  }
 }
 
 @media screen and (max-width: 480px) {
+  
   .header-wrap__logo {
     width: 40%;
     padding: 1% 2%;
+  }
+
+  #h-nav {
+    width: 85%;
+  }
+
+  #h-nav.panelactive #h-nav__list {
+    width: 85%;
+  }
+
+  .top-wrap__con__right__mes {
+    margin-top: 5%;
+  }
+
+  .top-wrap__con__right__ttl{
+    padding-top: 5%;
+  }
+
+  .course-wrap {
+    width: 85%;
+  }
+
+  .course-wrap__con__left-price span.per-price {
+    margin-top: -7px;
+  }
+
+  .course-wrap__con__center-arrow {
+    margin-top: 3%;
+  }
+
+  .course-wrap__con__right-price p {
+    padding: 8% 0;
+  }
+
+  .course-wrap__con__right-price p {
+    margin-top: -20px;
+  }
+
+  .course-wrap__con__right-price span.per-price {
+    margin-top: -20px;
+  }
+
+  .con-wrap__form__btn {
+    width: 80%;
+  }
+
+  .beard-wrap {
+    width: 70%;
+  }
+
+  .beard-wrap__ttl {
+    margin-left: 22px;
+  }
+
+  .worry-wrap {
+    width: 90%;
+  }
+
+  .worry-wrap__case {
+    margin: 5% 5% 0 5%;
+  }
+
+  .worry-wrap__txt {
+    line-height: 1.3;
+  }
+
+  .worry-wrap__txt span {
+    text-decoration: underline #C8AF77 2px;
+  }
+
+  .fea-wrap__body__block {
+    width: 90%;
+    margin-bottom: 7.5%;
+  }
+
+  .diff-wrap__body {
+    margin: 0 30px;
+    margin-top: 3%;
+  }
+
+  .diff-wrap__body__table table tr th {
+    padding: 5px;
+  }
+
+  .diff-wrap__body__table table tr td {
+    padding: 5px;
+  }
+
+  .price-wrap__body {
+    margin: 0 30px;
+    margin-top: 3%;
+  }
+
+  .reserve-wrap__con {
+    margin-left: 5%;
+  }
+
+  .reserve-wrap__con__form__btn {
+    width: 10rem;
+    margin-left: 80px;
   }
 }
