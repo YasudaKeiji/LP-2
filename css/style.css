@@ -169,7 +169,6 @@ li {
 
 .top {
   height: 100vh;
-  overflow: hidden;
 }
 
 .top-wrap {
@@ -185,15 +184,18 @@ li {
   background-repeat: no-repeat;
   margin: 0 auto;
   width: 100%;
-  height: 100%;
+  height: calc(100vh - 90px);
   z-index: 0;
   position: absolute;
 }
 
 .top-wrap__con {
-  position: absolute;
+  position: relative;
   display: flex;
   width: 100%;
+  height: calc(100vh - 90px);
+  align-items: center;
+  justify-content: center;
 }
 
 .top-wrap__con__left {
@@ -211,7 +213,6 @@ li {
   position: relative;
   background-color: #0099CB;
   padding: 1.5% 5%;
-  margin-top: 7%;
 }
 
 .top-wrap__con__right__mes::after {
@@ -241,8 +242,11 @@ li {
   line-height: 1.4;
 }
 
+.top-wrap__con__right__price{
+  padding-top: 5%;
+}
+
 .top-wrap__con__right__price p {
-  padding-top: 4%;
   font-size: clamp(1.25rem, 0.795rem + 2.27vw, 2.5rem);
   font-weight: bold;
   line-height: 1.4;
@@ -408,7 +412,7 @@ li {
 }
 
 .beard-wrap {
-  width: 30%;
+  width: 35%;
   margin: 0 auto;
   padding: 5% 0;
 }
@@ -678,6 +682,8 @@ li {
 
 .diff-wrap__body {
   margin-top: 5%;
+  overflow-x: auto; 
+  -webkit-overflow-scrolling: touch; 
 }
 
 .diff-wrap__body__table {
@@ -695,7 +701,7 @@ li {
 
 .diff-wrap__body__table table tr th {
   padding: 12.5px;
-  font-size: clamp(0.438rem, 0.188rem + 1.25vw, 1.125rem);
+  font-size: clamp(0.563rem, 0.358rem + 1.02vw, 1.125rem);
   text-align: center;
   vertical-align: middle;
   font-weight: 300;
@@ -704,7 +710,7 @@ li {
 .diff-wrap__body__table table tr td {
   padding: 12.5px;
   border-left: solid 1px #000;
-  font-size: clamp(0.313rem, 0.017rem + 1.48vw, 1.125rem);
+  font-size: clamp(0.563rem, 0.358rem + 1.02vw, 1.125rem);
 }
 
 .diff-wrap__body__table table tr td span.d-circle {
@@ -734,6 +740,7 @@ li {
 .diff-wrap__body__table table th,
 .diff-wrap__body__table table td {
   width: calc(42.5%);
+  white-space: nowrap;
 }
 
 .diff-wrap__body__table table th:first-child,
@@ -745,18 +752,20 @@ li {
   background-color: #C8AF77;
   font-weight: bold;
   color: #fff;
-  font-size: clamp(0.5rem, 0.045rem + 2.27vw, 1.75rem);
+  font-size: clamp(0.875rem, 0.557rem + 1.59vw, 1.75rem);
 }
 
 .diff-wrap__body__table table tr:nth-child(1) td:nth-child(3) {
   background-color: #2C3E50;
   font-weight: bold;
   color: #fff;
-  font-size: clamp(0.5rem, 0.045rem + 2.27vw, 1.75rem);
+  font-size: clamp(0.875rem, 0.557rem + 1.59vw, 1.75rem);
 }
 
 .price-wrap__body {
   margin-top: 5%;
+  overflow-x: auto; 
+  -webkit-overflow-scrolling: touch; 
 }
 
 .price-wrap__body__table {
@@ -773,7 +782,7 @@ li {
 }
 
 .price-wrap__body__table table tr th {
-  font-size: clamp(0.313rem, 0.017rem + 1.48vw, 1.125rem);
+  font-size: clamp(0.563rem, 0.358rem + 1.02vw, 1.125rem);
   text-align: center;
   vertical-align: middle;
   background-color: #FCFAF5;
@@ -783,7 +792,7 @@ li {
 .price-wrap__body__table table tr td {
   padding: 25px 12.5px;
   border-left: solid 1px #000;
-  font-size: clamp(0.438rem, 0.051rem + 1.93vw, 1.5rem);
+  font-size: clamp(0.75rem, 0.477rem + 1.36vw, 1.5rem);
   font-weight: bold;
   color: #2C3E50;
   vertical-align: middle;
@@ -792,13 +801,14 @@ li {
 .price-wrap__body__table table th,
 .price-wrap__body__table table td {
   width: calc(25%);
+  white-space: nowrap;
 }
     
 .price-wrap__body__table table tr:nth-child(1) td:nth-child(2),
 .price-wrap__body__table table tr:nth-child(1) td:nth-child(3),
 .price-wrap__body__table table tr:nth-child(1) td:nth-child(4) {
   background-color: #FCFAF5;
-  font-size: clamp(0.438rem, 0.188rem + 1.25vw, 1.125rem);
+  font-size: clamp(0.563rem, 0.358rem + 1.02vw, 1.125rem);
   font-weight: 300;
   color: #000;
 }
@@ -901,7 +911,7 @@ li {
 
 .reserve-wrap__con__form__block {
   margin: 2.5% 0;
-  width: 90%;
+  width: 100%;
 }
 
 .reserve-wrap__con__form__block__ttl {
@@ -941,7 +951,7 @@ li {
 }
 
 .reserve-wrap__con__form__block__input__one.__text {
-  width: 100%;
+  width: 95%;
 }
 
 .reserve-wrap__con__form__block__input__one.__text input {
@@ -1016,11 +1026,73 @@ li {
 
 @media screen and (max-width: 1024px) {
   
+  .header-wrap__logo {
+    width: 25%;
+    padding: 1% 2%;
+  }
+
+  .course-wrap {
+    width: 60%;
+  }
+
+  .beard-wrap {
+    width: 40%;
+  }
+
+  .worry-wrap {
+    width: 65%;
+  }
+
+  .fea-wrap__body {
+    margin: 0 60px;
+  }
+
+  .diff-wrap__body {
+    margin-top: 5%;
+  }
+
+  .price-wrap__body {
+    margin-top: 5%;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  
+  .course-wrap {
+    width: 60%;
+  }
+
+  .beard-wrap {
+    width: 55%;
+  }
+
+  .con-wrap__form__btn {
+    width: 60%;
+  }
+
+  .worry-wrap {
+    width: 75%;
+  }
+
+  .__inner {
+    width: 87.5%;
+  }
+
+  .fea-wrap__body {
+    margin: 0 60px;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  
   .top-wrap {
     position: unset;
     display: flex;
     flex-direction: column;
-    height: calc(100vh - 90px);
+    height: calc(100vh - 65px);
+    padding-top: 65px;
   }
 
   .top-wrap__img {
@@ -1046,6 +1118,7 @@ li {
     position: unset;
     background-color: #EFF2F5;
     height: 60%;
+    flex-direction: column;
   }
 
   .top-wrap__con__left {
@@ -1054,11 +1127,7 @@ li {
 
   .top-wrap__con__right {
     width: 100%;
-    height: auto;
-  }
-
-  .top-wrap__con__right__mes {
-    margin-top: 5%;
+    height: 100%;
   }
 
   .top-wrap__con__right__mes::after {
@@ -1066,11 +1135,15 @@ li {
   }
 
   .top-wrap__con__right__ttl{
-    padding-top: 5%;
+    padding-top: 2%;
+  }
+
+  .top-wrap__con__right__price {
+    padding-top: 1%;
   }
 
   .top-wrap__con__right__price p {
-    line-height: 1.2;
+    line-height: 1.1;
   }
 
   .top-wrap__con__right__price span {
@@ -1082,104 +1155,28 @@ li {
     white-space:pre;
   }
 
-  .course-wrap {
-    width: 55%;
+  .header-wrap {
+    height: 65px;
   }
 
-  .beard-wrap {
-    width: 40%;
+  .h-open {
+    width: 65px;
   }
 
-  .worry-wrap {
-    width: 65%;
-  }
-
-  .fea-wrap__body {
-    margin: 0 60px;
-  }
-
-  .diff-wrap__body {
-    margin: 0 60px;
-    margin-top: 5%;
-  }
-
-  .price-wrap__body {
-    margin: 0 60px;
-    margin-top: 5%;
-  }
-
-  .faq-wrap__body {
-    margin: 0 60px;
-    margin-top: 5%;
-  }
-
-}
-
-@media screen and (max-width: 768px) {
-
-  .top-wrap__con__right__ttl{
-    padding-top: 5%;
-  }
-
-  .top-wrap__con__right__price p {
-    padding-top: 1%;
-  }
-  
-  .course-wrap {
-    width: 60%;
-  }
-
-  .beard-wrap {
-    width: 55%;
-  }
-
-  .con-wrap__form__btn {
-    width: 60%;
-  }
-
-  .worry-wrap {
-    width: 75%;
-  }
-
-  .fea-wrap__body {
-    margin: 0 60px;
-  }
-
-  .diff-wrap__body {
-    margin: 0 60px;
-    margin-top: 5%;
-  }
-
-  .diff-wrap__body {
-    margin: 0 60px;
-    margin-top: 5%;
-  }
-
-  .price-wrap__body {
-    margin: 0 60px;
-    margin-top: 5%;
-  }
-
-  .faq-wrap__body {
-    margin: 0 20px;
-    margin-top: 5%;
-  }
-
-  .reserve-wrap__con {
-    margin-left: 5%;
-  }
-
-  .reserve-wrap__con__form__btn {
-    width: 12em;
-    margin-left: 230px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  
   .header-wrap__logo {
     width: 40%;
     padding: 1% 2%;
+  }
+
+  .h-open small {
+    top: 0px;
+  }
+
+  .h-open span {
+    left: 16px;
+    height: 1px;
+    width: 50%;
+    margin-top: -25%;
   }
 
   #h-nav {
@@ -1190,20 +1187,8 @@ li {
     width: 85%;
   }
 
-  .top-wrap__con__right__mes {
-    margin-top: 5%;
-  }
-
-  .top-wrap__con__right__ttl{
-    padding-top: 3%;
-  }
-
-  .top-wrap__con__right__price p {
-    padding-top: 0;
-  }
-
   .course-wrap {
-    width: 85%;
+    width: 90%;
   }
 
   .course-wrap__con__left-price span.per-price {
@@ -1211,7 +1196,7 @@ li {
   }
 
   .course-wrap__con__center-arrow {
-    margin-top: 3%;
+    margin-top: 5%;
   }
 
   .course-wrap__con__right-price p {
@@ -1227,7 +1212,7 @@ li {
   }
 
   .con-wrap__form__btn {
-    width: 80%;
+    width: 85%;
   }
 
   .beard-wrap {
@@ -1254,14 +1239,13 @@ li {
     text-decoration: underline #C8AF77 2px;
   }
 
+  .fea-wrap__body {
+    margin: 0;
+  }
+
   .fea-wrap__body__block {
     width: 90%;
     margin-bottom: 7.5%;
-  }
-
-  .diff-wrap__body {
-    margin: 0 30px;
-    margin-top: 3%;
   }
 
   .diff-wrap__body__table table tr th {
@@ -1272,17 +1256,7 @@ li {
     padding: 5px;
   }
 
-  .price-wrap__body {
-    margin: 0 30px;
-    margin-top: 3%;
-  }
-
-  .reserve-wrap__con {
-    margin-left: 5%;
-  }
-
   .reserve-wrap__con__form__btn {
     width: 8rem;
-    margin-left: 100px;
   }
 }
