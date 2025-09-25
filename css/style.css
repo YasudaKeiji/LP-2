@@ -1087,6 +1087,7 @@ li {
 
 @media screen and (max-width: 480px) {
   
+  
   .top-wrap {
     position: unset;
     display: flex;
@@ -1117,6 +1118,7 @@ li {
   .top-wrap__con {
     position: unset;
     background-color: #EFF2F5;
+    width: 100%;
     height: 60%;
     flex-direction: column;
   }
@@ -1128,8 +1130,20 @@ li {
   .top-wrap__con__right {
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
 
+  .top-wrap__con__right__mes {
+    display: inline-block;
+    position: relative;
+    background-color: #0099CB;
+    max-width: 75%;
+    padding: 0 2%;
+    margin: 0 auto;
+  }
+  
   .top-wrap__con__right__mes::after {
     display: none;
   }
