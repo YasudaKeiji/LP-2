@@ -665,7 +665,7 @@ li {
 .__inner {
   max-width: 900px;
   margin: 0 auto;
-  padding: 5% 0;
+  padding: 5% 5%;
 }
 
 .diff {
@@ -708,6 +708,7 @@ li {
 }
 
 .diff-wrap__body__table table tr td {
+  background-color: #fff;
   padding: 12.5px;
   border-left: solid 1px #000;
   font-size: clamp(0.563rem, 0.358rem + 1.02vw, 1.125rem);
@@ -815,10 +816,6 @@ li {
 
 .faq {
   background-color: #fcfaf5;
-}
-
-.faq-wrap {
-  padding: 5% 0;
 }
 
 .faq-wrap__body__list {
@@ -1058,9 +1055,46 @@ li {
 }
 
 @media screen and (max-width: 768px) {
-  
+
+  .header-wrap {
+    height: 65px;
+  }
+
+  .h-open {
+    width: 65px;
+  }
+
+  .header-wrap__logo {
+    width: 40%;
+    padding: 1% 2%;
+  }
+
+  .h-open small {
+    top: 0px;
+  }
+
+  .h-open span {
+    left: 16px;
+    height: 1px;
+    width: 50%;
+    margin-top: -25%;
+  }
+
+  #h-nav {
+    width: 85%;
+  }
+
+  #h-nav.panelactive #h-nav__list {
+    width: 85%;
+  }
+
+  .top-wrap {
+    height: calc(100vh - 65px);
+    padding-top: 65px;
+  }
+
   .course-wrap {
-    width: 60%;
+    width: 70%;
   }
 
   .beard-wrap {
@@ -1068,7 +1102,7 @@ li {
   }
 
   .con-wrap__form__btn {
-    width: 60%;
+    width: 70%;
   }
 
   .worry-wrap {
@@ -1086,14 +1120,51 @@ li {
 }
 
 @media screen and (max-width: 480px) {
-  
-  
+  .header-wrap {
+    height: 45px;
+  }
+
+  .h-open {
+    width: 45px;
+  }
+
+  .h-open span {
+    left: 9px;
+    height: 1px;
+    width: 60%;
+    margin-top: -30%;
+  }
+
+  .h-open small {
+    top: -7px;
+  }
+
+  .h-open span:nth-of-type(1) {
+    top: 30px;
+  }
+
+  .h-open span:nth-of-type(2) {
+    top: 40px;
+  }
+
+  .h-open span:nth-of-type(3) {
+    top: 50px;
+  }
+
+  #h-nav {
+    width: 85%;
+  }
+
+  #h-nav.panelactive #h-nav__list {
+    width: 85%;
+  }
+
   .top-wrap {
     position: unset;
     display: flex;
     flex-direction: column;
-    height: calc(100vh - 65px);
-    padding-top: 65px;
+    height: calc(100vh - 45px);
+    padding-top: 45px;
   }
 
   .top-wrap__img {
@@ -1167,38 +1238,6 @@ li {
   .top-wrap__con__right__price span::before{
     content:"\A";
     white-space:pre;
-  }
-
-  .header-wrap {
-    height: 65px;
-  }
-
-  .h-open {
-    width: 65px;
-  }
-
-  .header-wrap__logo {
-    width: 40%;
-    padding: 1% 2%;
-  }
-
-  .h-open small {
-    top: 0px;
-  }
-
-  .h-open span {
-    left: 16px;
-    height: 1px;
-    width: 50%;
-    margin-top: -25%;
-  }
-
-  #h-nav {
-    width: 85%;
-  }
-
-  #h-nav.panelactive #h-nav__list {
-    width: 85%;
   }
 
   .course-wrap {
